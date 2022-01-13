@@ -8,7 +8,7 @@ public class binarySearchTree implements tree{
     public boolean insert(int newData) {
 
         boolean containValue=false;
-         containValue=contain(newData);
+         containValue=contains(newData);
         if(containValue){
            return false;
         }else {
@@ -42,8 +42,8 @@ public class binarySearchTree implements tree{
             else prev.right=n;
         }
 
-
-    public boolean contain(int value){
+    @Override
+    public boolean contains(int value){
             return search(value);
     }
   
