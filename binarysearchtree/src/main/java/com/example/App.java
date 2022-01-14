@@ -14,6 +14,7 @@ public class App
         arbol.insert(8);
         arbol.insert(2);
         arbol.insert(3);
+        arbol.insert(8);
       
         System.out.println("arbol:"+arbol);
     }
