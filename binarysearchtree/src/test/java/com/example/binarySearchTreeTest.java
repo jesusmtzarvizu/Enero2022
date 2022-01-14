@@ -48,7 +48,7 @@ public class binarySearchTreeTest {
         arbol.insert(2);
         arbol.insert(3 );
         
-         /*as the arbol contains the value then expected result is true */
+         /*return String representation of the object */ 
         assertThat(arbol.toString()).isEqualTo("1238");
         
        
